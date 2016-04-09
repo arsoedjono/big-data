@@ -1,5 +1,9 @@
 # big-data
-==========
+```
+Risky Dwi Setiyawan			5112100030
+Aranda Rizki Soedjono		5112100068
+Djuned Fernando Djusdek 	5112100071
+```
 
 ## Film Location in San Fransisco
 ### https://data.sfgov.org/Culture-and-Recreation/Film-Locations-in-San-Francisco/yitu-d5am
@@ -19,3 +23,5 @@
 	Actor 3					: Plain text
 	Smile Again, Jenny Lee 	: Plain text
 ```
+
+## Institut Teknologi Sepuluh Nopember - Surabaya
