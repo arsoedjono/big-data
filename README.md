@@ -1,8 +1,8 @@
 # big-data
 ```
-Risky Dwi Setiyawan			5112100030
-Aranda Rizki Soedjono		5112100068
-Djuned Fernando Djusdek 	5112100071
+	Risky Dwi Setiyawan			5112100030
+	Aranda Rizki Soedjono		5112100068
+	Djuned Fernando Djusdek 	5112100071
 ```
 
 ## Film Location in San Fransisco
