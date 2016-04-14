@@ -1,7 +1,7 @@
 __author__ = 'Djuned Fernando Djusdek'
 
 from pyspark import SparkConf, SparkContext
-import collections
+#import collections
 from operator import add
 
 conf = SparkConf().setMaster("local").setAppName("DirectorVsActor")
