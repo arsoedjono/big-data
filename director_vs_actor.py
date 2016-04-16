@@ -3,6 +3,8 @@ __author__ = 'Djuned Fernando Djusdek'
 from pyspark import SparkConf, SparkContext
 #import collections
 from operator import add
+import os
+from sys import platform as _platform
 
 conf = SparkConf().setMaster("local").setAppName("DirectorVsActor")
 sc = SparkContext(conf = conf)
@@ -16,7 +18,18 @@ def parseLine(line):
     Actor3 = fields[10]
     return (Title, Director, Actor1, Actor2, Actor3)
 
-path = "/Users/user/Documents/GitHub/big-data"
+#path = "/Users/user/Documents/GitHub/big-data"
+
+dirpath = os.getcwd()
+path = ''
+if _platform == "win32":
+    path = dirpath.replace(dirpath[0:dirpath.index(":")+1], "").replace("\\", "/")
+elif _platform == "linux" or _platform == "linux2" or _platform == "darwin":
+    path = dirpath
+
+#else
+#    path = dirpath
+
 filename = "dataset.dat"
 
 lines = sc.textFile("file://"+path+"/"+filename)
