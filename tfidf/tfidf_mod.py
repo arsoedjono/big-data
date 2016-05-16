@@ -19,9 +19,9 @@ def mySpark(minFreq, keyWord):
     sc = SparkContext(conf = conf)
 
     # Load documents (one per line).
-    rawData = sc.textFile("data-ku.txt") + sc.textFile("data-ku2.txt")
+    rawData = sc.textFile("list_berita-30.tsv")
     fields = rawData.map(lambda x: x.split("\t"))
-    documents = fields.map(lambda x: removePunctuation(x[3] + " " + x[4]))
+    documents = fields.map(lambda x: removePunctuation(x[3]))
 
     #println( documents.collect() )
 
