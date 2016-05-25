@@ -15,7 +15,7 @@ def parseLine(line):
     Actor3 = fields[10]
     return (Title, Actor1, Actor2, Actor3)
 
-filename = "E:/Codingan/BigData/big-data-master/dataset.dat"
+filename = "dataset.dat"
 
 lines = sc.textFile(filename)
 rdd = lines.map(parseLine)
