@@ -1,0 +1,102 @@
+director_vs_actor (top 5)
+
+((u'Peter Yates', u'Steve McQueen'), 9)
+((u'Peter Yates', u'Jacqueline Bisset'), 9)
+((u'James Fargo', u'Tyne Daly'), 5)
+((u'James Fargo', u'Clint Eastwood'), 5)
+((u'Ted Post', u'Clint Eastwood'), 5)
+
+
+actor_vs_actor (top 5)
+
+((u'Jacqueline Bisset', u'Steve McQueen'), 9)
+((u'Steve McQueen', u'Jacqueline Bisset'), 9)
+((u'Tyne Daly', u'Clint Eastwood'), 5)
+((u'Clint Eastwood', u'Tyne Daly'), 5)
+((u'Hugh Grant', u'Julianne Moore'), 4)
+
+
+location_vs_year
+
+1915: Golden Gate Park (1)
+1923: St. Peter & Paul's Church (666 Filbert Street, Washington Square) (1)
+1924: Bush and Sutter Streets (1)
+1927: Coffee Dan's (O'Farrell Street at Powell) (1)
+1936: The Barbary Coast (1)
+1938: Fairmont Hotel (950 Mason Street, Nob Hill) (1)
+1941: Burritt Alley (Off Bush Street, between Powell and Stockton Streets) (1)
+1942: The Barbary Coast (1)
+1947: Filbert Steps, Filbert Street (1)
+1948: Fairmont Hotel (950 Mason Street, Nob Hill) (1)
+1950: Powell & California Streets (1)
+1951: 1227 Montgomery Street (1)
+1952: Brocklebank Apartments (1000 Mason Street) (1)
+1954: The Embarcadero (1)
+1955: Hunters Point (1)
+1957: Coit Tower (1)
+1958: San Francisco Drydock (20th and Illinois Streets) (1)
+1960: Fairmont Hotel (950 Mason Street, Nob Hill) (1)
+1961: Golden Gate Bridge (1)
+1962: The Sea Captain's Chest (Fisherman's Wharf) (1)
+1963: Powell and Geary Streets (Union Square) (1)
+1964: On Board the SS President Cleveland, docked at Pier 50 (1)
+1967: Alcatraz Island (1)
+1968: 2700 Vallejo Street (Pacific Heights) (1)
+1969: Golden Gate Park (1)
+1971: Conservatory of Flowers (Golden Gate Park) (1)
+1972: Westin St. Francis Hotel (335 Powell Street, Union Square) (1)
+1973: Broadway Tunnel (Russian Hill) (1)
+1974: Fairmont Hotel (950 Mason Street, Nob Hill) (2)
+1976: Grace Cathedral Episcopal Church (1100 California Street) (1)
+1977: Fort Point (Presidio, Golden Gate National Recreation Area) (1)
+1978: Postcard Row (Alamo Square, Hayes Valley) (2)
+1979: Palace of Fine Arts (3301 Lyon Street) (1)
+1980: California Academy of Sciences (Golden Gate Park) (1)
+1981: 22nd and Carolina Streets (Potrero Hill) (1)
+1982: Fairmont Hotel (950 Mason Street, Nob Hill) (1)
+1983: Ferry Plaza (1)
+1984: Palace of Fine Arts (3301 Lyon Street) (1)
+1985: City Hall (3)
+1986: Intersection of Columbus & Mason Streets (1)
+1987: Telegraph Hill (1)
+1988: 20th & De Haro Streets (Potrero Hill) (1)
+1989: Mission Dolores Park (Mission District) via J-Church MUNI Train (1)
+1990: Financial District (1)
+1991: Mission Dolores (3321 16th Street, Mission District) (1)
+1992: St. Paul's Church (Church Street, Noe Valley) (1)
+1993: St. Peter & Paul's Church (666 Filbert Street, Washington Square) (2)
+1994: Golden Gate Bridge (2)
+1995: Palace of Fine Arts (2)
+1996: Fairmont Hotel (950 Mason Street, Nob Hill) (2)
+1997: Bay Bridge (3)
+1998: Treasure Island (2)
+1999: Palace of Fine Arts (3301 Lyon Street) (2)
+2000: 435 23rd Street at Illinois (3)
+2001: Mission Dolores Park (Mission District) (2)
+2002: Condor Club (Columbus and Broadway) (1)
+2003: Golden Gate Bridge (2)
+2004: The Saloon (1232 Grant Avenue) (1)
+2005: Treasure Island (1)
+2006: Candlestick Park (602 Jamestown Ave.) (1)
+2007: SF Chronicle Building (901 Mission St) (1)
+2008: Marine Fireman's Union Headquarters (1)
+2010: 0-100 block Halleck Street (1)
+2011: Mason & California Streets (Nob Hill) (1)
+2012: Taylor St. from Broadway to Filbert (1)
+2013: Geary & 27th Ave (1)
+2014: Presidio Church at 130 Fisher Loop (1)
+2015: Laguna Honda Hospital (2)
+Jumlah data: 68
+
+
+++ tfidf_film
+
+minimal dokumen frekuensi := 2
+kata kunci := "paramount san francisco"
+
+Best document for keywords "paramount is:
+(7.5880752370765023, u'The Dead Pool 1988 "San Francisco General Hospital Medical Center (1001 Potrero Avenue, Potrero Hill)"')
+Best document for keywords san is:
+(4.2276859367943365, u'Zodiac 2007 SF Chronicle Building (901 Mission St)')
+Best document for keywords francisco is:
+(5.6139802979142273, u'Vertigo 1958 "Mission Dolores (3321 16th Street, Mission District)"')
